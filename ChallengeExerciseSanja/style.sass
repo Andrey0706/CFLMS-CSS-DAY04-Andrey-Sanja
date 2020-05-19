@@ -9,6 +9,7 @@ body
     background-color: lightblue
 
 header
+    display: flex
     background-color: #05001b
     width: 100%
     height: 1%
@@ -18,24 +19,60 @@ header
     color: white
     justify-content: space-around
 
+#menu_large
+    position: absolute
+    width: 5em
+    height: 5em
+    display: flex
+    z-index: 5
+
+#menu_large:hover
+    display: flex
+    flex-direction: column
+    position: absolute
+    border: red solid 2px
+    width: 20em
+    height: 20em
+    background-color: white
+    margin-top: 5.25em
+    transition-duration: 2s
+
+.text
+    margin-left: 2em
 #menu
     width: 5em
     height: 5em
+
     
 
-#menu:hover
+#menu_larger:hover
     width: 200px
     height: 500px
 
 
 #cart
     width: 5em
-    height: 5em    
+    height: 5em   
+
+#logo
+    width: 5em
+    height: 5em 
 
 a
     text-decoration: none
     font-family: sans-serif
+    color: white
+    font-weight: bold
+    
 
 ul
+    width: 20em
     list-style-type: none
+    display: flex
+    justify-content: center
+    align-items: center
 
+input
+    align-self: center
+    width: 50em
+    height: 3em
