@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(summer.png);
+	background-repeat: repeat;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #a1d66b;
+	font-size: 2rem;
+	border-bottom: #df0000b6 solid 1rem;
+	margin-bottom: 2rem;
+}
+
+header p {
+	font-size: 4rem;
+	margin-left: 10%;
+	font-family: 'Permanent Marker', cursive;
+	color: #f8f80b;
+}
+
+header img {
+	background-color: #e09da8;
+	width: 100px;
+	height: 100px;
+}
+
+div > h1 {
+	font-family: 'Permanent Marker', cursive;
+	color: #ff7f50;
+	text-align: center;
+}
+
+.gal {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: auto;
+	border: solid black 5px;
+	width: 90%;
+	height: 70%;
+}
+
+.gallery {
+	border: crimson solid 2px;
+}
+
+.desc {
+	font-family: 'Permanent Marker', cursive;
+	color: #270a00;
+	text-align: center;
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+	header p {
+		display: none;
+	}
+
+	header {
+		justify-content: center;
+	}
+}
